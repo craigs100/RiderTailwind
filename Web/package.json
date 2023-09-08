@@ -1,0 +1,38 @@
+{
+  "name": "web.app",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "wp-dev": "webpack --watch",
+    "wp-prod": "webpack --mode=production",
+    "tailwind": "tailwindcss -i ./src/tailwind.css -o ./wwwroot/dist/tailwind.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "autoprefixer": "^10.4.8",
+    "babel-loader": "9.*",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "expose-loader": "4.*",   
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-waves": "^0.7.6",
+    "pace": "0.0.4",
+    "popper.js": "^1.16.1",
+    "postcss": "8.*",
+    "postcss-loader": "7.*",
+    "postcss-preset-env": "8.*",
+    "raw-loader": "^4.0.2",
+    "sass": "1.*",
+    "sass-loader": "13.*",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "*",
+    "webpack": "5.*",
+    "webpack-cli": "5.*",
+    "webpack-dev-server": "*"
+  }
+}
